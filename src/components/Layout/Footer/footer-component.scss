@@ -1,0 +1,30 @@
+.footer-container {
+  max-width: 100%;
+  width: 100%;
+  // position: absolute;
+  // bottom: 0;
+  overflow: hidden;
+
+  .footer__top-bar {
+    background-color: #474747;
+    color: #ffffff;
+    padding: 2rem 4rem 4rem 4rem;
+
+    .list-group {
+      .list-group-item {
+        background-color: #474747;
+        border-color: #626262;
+      }
+    }
+  }
+
+  .footer__copyright-bar {
+    background-color: #297eb1;
+    text-align: center;
+    height: 3.25rem;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 1rem;
+  }
+}

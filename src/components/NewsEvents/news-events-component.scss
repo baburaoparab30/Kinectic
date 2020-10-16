@@ -1,0 +1,23 @@
+.news-events-container {
+  .container-fluid {
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+  .news__events--content {
+    padding: 4rem 5rem 7rem 5rem;
+    img {
+      max-width: 120px;
+      max-height: 100px;
+    }
+    .news__events--items {
+      padding: 0.75rem;
+      h5 {
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

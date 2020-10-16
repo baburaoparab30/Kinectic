@@ -1,0 +1,79 @@
+.home-container {
+  overflow: hidden;
+  .container-fluid {
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+  .welcome__display--container {
+    padding: 3rem;
+    background-color: #eeeeee;
+  }
+  .about__company-info--container {
+    color: #ffffff;
+    .about__kineco--container {
+      padding: 3rem;
+      background-color: #0c9944;
+    }
+    .about__kaman--container {
+      padding: 3rem;
+      background-color: #2584bc;
+    }
+  }
+  .aboutus__leadership-info--container {
+    text-align: center;
+    padding: 4rem;
+    .card {
+      border: unset;
+    }
+    .card-title {
+      margin: unset;
+    }
+    .card-body {
+      padding: unset;
+    }
+    p.card-text {
+      text-align: justify;
+      margin-top: 1rem;
+    }
+    .btn-primary {
+      color: #fff;
+      background-color: #0c9944;
+      border-color: unset;
+    }
+    .btn-primary:hover {
+      background-color: #0c9944;
+      border-color: unset;
+    }
+    // .about__us--container {
+    // }
+    // .leadership__info--container {
+    // }
+    // .video__display--container {
+    // }
+  }
+  .latest__news-container {
+    background-image: url("../../assets/images/news-video-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    // background-position: 50% 18px;
+    .latest__news-content {
+      padding: 4rem 5rem 7rem 5rem;
+      hr {
+        background-color: #8e9797;
+      }
+      .latest__news-items {
+        padding: 0.75rem;
+        h5 {
+          font-size: 0.9rem;
+          font-weight: 700;
+        }
+        p {
+          font-size: 0.75rem;
+        }
+      }
+      .corporate__video-container {
+      }
+    }
+  }
+}
